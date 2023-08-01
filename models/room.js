@@ -1,16 +1,5 @@
 import mongoose from "mongoose";
 
-const { Schema } = mongoose;
-mongoose.Promise = global.Promise;
-
-// const userSchema = new mongoose.Schema({
-//     id: {
-//         type: String,
-//         required: true
-//     }
-// })
-// var User = mongoose.model('User', userSchema);
-
 const roomSchema = new mongoose.Schema({
     name: {
         type: String,
